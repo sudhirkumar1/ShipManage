@@ -64,6 +64,8 @@ public class ShippingService {
         return shipReq;
     }
 
+/// Adding this comment for testing purposes supadhy2
+
     public ShippingStatus registerStatus(String reqId, String loc, String stat, String obs) {
         // Search the shipping request that matches with request ID.
         // Otherwise throws an exception.
